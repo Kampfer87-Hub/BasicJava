@@ -19,6 +19,12 @@
         System.out.println(2 % 8);  // 2
 
 
+                   int c10 = 1144;
+                   int c8 = 2170 ;
+
+                   System.out.println(2*Math.pow(8,3) + 1*Math.pow(8,2) + 7*Math.pow(8,1) + 0*Math.pow(8,0));
+
+
 
 
         int c10 = 978;
@@ -39,6 +45,13 @@
 
         System.out.println(1 / 8);  // 0
         System.out.println(1 % 8);  // 1
+        
+        
+                int c10 = 978;
+                int c8 = 1722 ;
+                System.out.println(1*Math.pow(8,3) + 7*Math.pow(8,2) + 2*Math.pow(8,1) + 2*Math.pow(8,0));
+
+        
 
 
 
@@ -55,3 +68,12 @@
 
         System.out.println(1 / 8);  // 0
         System.out.println(1 % 8);  // 1
+        
+                  int c10 = 12;
+                  int c8 = 14 ;
+
+                  System.out.println(1*Math.pow(8,1) + 4*Math.pow(8,0));
+
+        
+        
+        
