@@ -14,15 +14,14 @@ public class PizzaCalculation {
         System.out.println("Pizza's area is " + resultArea + " square units");
     }
 
+
+ //сделал с  возвращаемым значением, но не могу понять как вывести результат на экран
+
+    public String pizzaArea(double input) {
+         double pizzaArea = ((Math.pow(input, 2)) * Math.PI) / 4;
+        String result = "Pizza's area is " + pizzaArea + " square units. Second method";
+
+        return result;
+    }
+
 }
-// сделал с  возвращаемым значением, но не могу понять как вывести результат на экран
-// public class PizzaCalculation2 {
-//    public double pizzaArea(double input) {
-//
-//        return ((Math.pow(input, 2)) * Math.PI) / 4;
-//    }
-//
-//    public void printResultArea2(double pizzaArea) {
-//        System.out.println("Pizza's area is " + pizzaArea + " square units");
-//    }
-//}
