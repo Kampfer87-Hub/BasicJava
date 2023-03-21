@@ -15,7 +15,7 @@ public class PizzaCalculation {
     }
 
 
- //сделал с  возвращаемым значением, но не могу понять как вывести результат на экран
+ // 2 variant
 
     public String pizzaArea(double input) {
          double pizzaArea = ((Math.pow(input, 2)) * Math.PI) / 4;
