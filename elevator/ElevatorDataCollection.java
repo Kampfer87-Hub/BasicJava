@@ -24,7 +24,7 @@ public class ElevatorDataCollection {
                 System.out.println("Elevator can't move up");
                 break;
             }
-            System.out.println(sum);
+         
             count++;
         }
 
